@@ -17,6 +17,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @EnableTransactionManagement
 public class Application {
     public static void main(String[] args) {
+        System.out.println("11111 = " + 11111);
         SpringApplication.run(Application.class,args);
     }
 }
